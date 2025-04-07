@@ -1,0 +1,163 @@
+/* ======= Projects Page Styling ======= */
+html {  
+    scroll-behavior: smooth; /* Smooth scrolling */
+    /* color: white; */
+}
+
+body {
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#projects-page {
+    background: url("/assets/background6.svg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Project Section Title */
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Project Cards Container */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Project Card */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+}
+
+/* Project Card Hover Effect */
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Project Image */
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Project Name */
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: white;
+}
+
+/* Project Description */
+.project-card p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+/* Tech Stack */
+.project-card .tech-stack {
+    font-size: 0.9rem;
+    color: #b0f2c2;
+    margin-top: 10px;
+}
+
+/* Project Links */
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+    color: #cc5500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
+/* ======= Navbar Styling ======= *//* ======= Navbar Styling ======= */
+.navbar {
+    background: rgba(15, 15, 15, 0.9);
+    padding: 15px 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b0f2c2 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff6600 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        background: rgba(15, 15, 15, 1);
+    }
+
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+        display: block;
+    }
+}

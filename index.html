@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Teekshala Kantheti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("e3oEBGp87MROogdOv");
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="logo-color">TK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#top-projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container-fluid section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- Left: SVG Image with Animation -->
+                <div class="col-md-6 text-center">
+                    <img src="/assets/pfp.png" alt="Profile photo" class="img-fluid home-image animated-svg">
+                </div>
+
+                <!-- Right: Text -->
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h1 class="home-text">Hey, I am <span class="name-in-intro">Teekshala Kantheti</span></h1>
+                    <p class="intro-text">
+                        I'm a full-stack developer with expertise in both frontend and backend technologies. I hold a
+                        Master’s degree in Computer Science from UNC Charlotte and have hands-on experience working with
+                        modern web technologies. Passionate about creating intuitive user experiences and robust backend
+                        systems that drive impactful applications. Apart from tech, I'm a dancer and love to spend time
+                        cooking and exploring creativity beyond the screen.
+                    </p>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/teekshalak/" target="_blank" class="icon">
+                            <img src="assets/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/teekshala-4" target="_blank" class="icon">
+                            <img src="assets/github.svg" alt="GitHub">
+                        </a>
+                        <a href="mailto:teekshalak4788@gmail.com" class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="row">
+                <!-- Left side: Skills -->
+                <div class="col-md-6">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="skills-category">
+                        <h4>Frontend Development</h4>
+                        <div class="row text-center">
+                            <div class="col-2 skill-item">
+                                <img src="assets/html.svg" alt="HTML" class="skill-icon">
+                                <p>HTML</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/css.svg" alt="CSS" class="skill-icon">
+                                <p>CSS</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/js.svg" alt="JavaScript" class="skill-icon">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/typescript.svg" alt="TypeScript" class="skill-icon">
+                                <p>TypeScript</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/angular.svg" alt="Angular" class="skill-icon">
+                                <p>Angular</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/react.svg" alt="React" class="skill-icon">
+                                <p>React</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4>Backend & APIs</h4>
+                        <div class="row text-center">
+                            <div class="col-2 skill-item">
+                                <img src="assets/java.svg" alt="Java" class="skill-icon">
+                                <p>Java</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/spring.svg" alt="Spring Boot" class="skill-icon">
+                                <p>Spring Boot</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/nodejs.svg" alt="Node.js" class="skill-icon">
+                                <p>Node.js</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/data_analysis.svg" alt="RESTful APIs" class="skill-icon">
+                                <p>REST APIs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4>Databases & Cloud</h4>
+                        <div class="row text-center">
+                            <div class="col-2 skill-item">
+                                <img src="assets/mongodb.svg" alt="MongoDB" class="skill-icon">
+                                <p>MongoDB</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/mysql.svg" alt="MySQL" class="skill-icon">
+                                <p>MySQL</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/aws.svg" alt="AWS" class="skill-icon">
+                                <p>AWS</p>
+                            </div>
+                            <div class="col-2 skill-item">
+                                <img src="assets/azure.svg" alt="Azure" class="skill-icon">
+                                <p>Azure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side: SVG -->
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <div class="svg-placeholder">
+                        <img src="assets/skills3.svg" alt="Skills Illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-quote">
+            <p>"I believe in continuous learning and staying adaptable in this ever-evolving tech landscape.
+                My diverse skill set allows me to approach problems from multiple angles and create
+                comprehensive solutions that bridge frontend elegance with backend robustness."</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer (Full Stack Developer)</h3>
+                        <h4>JP Morgan Chase & Co</h4>
+                        <p class="timeline-date">Jan 2022- July 2023</p>
+                        <p class="timeline-description">
+                            Working as a full-stack developer on enterprise applications, leveraging Angular for
+                            frontend
+                            and Spring Boot for backend development. Collaborating with cross-functional teams to
+                            deliver high-quality financial technology solutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Intern</h3>
+                        <h4>JP Morgan Chase & Co</h4>
+                        <p class="timeline-date">Jun 2021- Jul 2021</p>
+                        <p class="timeline-description">
+                            Participated in developing microservices-based applications, contributed to frontend
+                            development using Angular, and worked with RESTful APIs. Collaborated with senior
+                            developers to implement new features and improve application performance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>IT Intern</h3>
+                        <h4>Power Mech Projects</h4>
+                        <p class="timeline-date">June 2020- May 2021</p>
+                        <p class="timeline-description">
+                            Assisted in IT infrastructure management, database administration, and basic web application
+                            development. Gained valuable exposure to enterprise systems and IT operations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extra-Curriculars Section -->
+            <h3 class="sub-section-title">Extra-Curricular Activities</h3>
+
+            <div class="extra-curricular">
+                <div class="ec-item">
+                    <h4>HACKATHON CODE FOR GOOD (JPMC)</h4>
+                    <p>Participated as a full-stack developer in JP Morgan's Code for Good hackathon, developing
+                        solutions for non-profit organizations. Collaborated with a diverse team to create impactful
+                        applications within a tight timeframe.</p>
+                </div>
+
+                <div class="ec-item">
+                    <h4>LIVEWIRE CREW</h4>
+                    <p>Served as General Secretary for the dance crew, organizing performances, managing team dynamics,
+                        and coordinating events. Demonstrated leadership and organizational skills while pursuing
+                        creative interests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Projects Section -->
+    <section id="top-projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="row project">
+                <div class="col-md-6 project-text">
+                    <h3>International Photography Meetup Website</h3>
+                    <p>Developed a full-stack web application to connect photography enthusiasts globally.
+                        Features include event creation, RSVP management, photo sharing, and location-based meetup
+                        discovery.</p>
+                    <span class="tech-stack">Angular, Node.js, MongoDB, Express, Google Maps API</span>
+                </div>
+                <div class="col-md-6 project-image">
+                    <img src="assets/project1.svg" alt="Photography Meetup Website">
+                </div>
+            </div>
+
+            <!-- Project 2 (Image on Left) -->
+            <div class="row project flex-row-reverse">
+                <div class="col-md-6 project-text">
+                    <h3>Visual Analytics Dashboard for Sleep, Health, and Lifestyle Dataset</h3>
+                    <p>Created an interactive data visualization dashboard to analyze correlations between sleep
+                        patterns,
+                        health metrics, and lifestyle choices. Implemented filtering, comparison tools, and predictive
+                        insights.</p>
+                    <span class="tech-stack">React.js, D3.js, Python, Flask, MySQL</span>
+                </div>
+                <div class="col-md-6 project-image">
+                    <img src="assets/project2.svg" alt="Analytics Dashboard">
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="row project">
+                <div class="col-md-6 project-text">
+                    <h3>Monitoring Driver's Lethargy for Car Safety</h3>
+                    <p>Developed a system to detect driver drowsiness and alertness levels using computer vision.
+                        Implemented real-time facial analysis to identify signs of fatigue and trigger appropriate
+                        alerts.</p>
+                    <span class="tech-stack">Python, OpenCV, TensorFlow, Raspberry Pi, IoT Sensors</span>
+                </div>
+                <div class="col-md-6 project-image">
+                    <img src="assets/project3.svg" alt="Driver Safety System">
+                </div>
+            </div>
+        </div>
+
+        <a href="projects.html" class="resume-button projects-button">
+            View All Projects
+        </a>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+
+            <div class="certificates-container">
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>AWS Certified Solution Architect - Associate</h3>
+                        <p>Demonstrated expertise in designing distributed systems and deploying applications on AWS.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p>Validated understanding of AWS Cloud, services, and architectural principles.</p>
+                    </div>
+                </div>
+
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>SQL (Intro, Intermediate, Data Manipulation, Joining Data)</h3>
+                        <p>Comprehensive SQL training covering all aspects of database querying and data manipulation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Amazon Redshift Getting Started</h3>
+                        <p>Specialized training on Amazon's data warehousing solution for analytics applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="row">
+                <div class="col-md-6 contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:teekshalak4788@gmail.com">teekshalak4788@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/teekshalak/"
+                                    target="_blank">linkedin.com/in/teekshalak</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/teekshala-4" target="_blank">github.com/teekshala-4</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 contact-form">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="from_name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="from_email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Teeksha Lak. All Rights Reserved.</p>
+                <div class="social-icons footer-icons">
+                    <a href="https://www.linkedin.com/in/teekshalak/" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/teekshala-4" target="_blank" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:teekshalak4788@gmail.com" class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script src="email.js"></script>
+</body>
+
+</html>

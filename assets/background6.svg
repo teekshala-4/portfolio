@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#112240" />
+    </linearGradient>
+    <filter id="glow" height="300%" width="300%" x="-100%" y="-100%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.8 0 0 0 0 0.9 0 0 0 1 0" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  <g filter="url(#glow)" opacity="0.2">
+    <circle cx="100" cy="100" r="3" fill="#64ffda" />
+    <circle cx="200" cy="180" r="2" fill="#64ffda" />
+    <circle cx="300" cy="120" r="1.5" fill="#64ffda" />
+    <circle cx="400" cy="220" r="2.5" fill="#64ffda" />
+    <circle cx="500" cy="150" r="2" fill="#64ffda" />
+    <circle cx="600" cy="250" r="3" fill="#64ffda" />
+    <circle cx="700" cy="120" r="1.5" fill="#64ffda" />
+    <circle cx="750" cy="220" r="2" fill="#64ffda" />
+    <circle cx="150" cy="350" r="2.5" fill="#64ffda" />
+    <circle cx="250" cy="420" r="2" fill="#64ffda" />
+    <circle cx="350" cy="320" r="3" fill="#64ffda" />
+    <circle cx="450" cy="380" r="1.5" fill="#64ffda" />
+    <circle cx="550" cy="320" r="2" fill="#64ffda" />
+    <circle cx="650" cy="450" r="2.5" fill="#64ffda" />
+    <circle cx="720" cy="380" r="1.5" fill="#64ffda" />
+    <circle cx="130" cy="520" r="2" fill="#64ffda" />
+    <circle cx="230" cy="580" r="3" fill="#64ffda" />
+    <circle cx="330" cy="500" r="1.5" fill="#64ffda" />
+    <circle cx="430" cy="620" r="2.5" fill="#64ffda" />
+    <circle cx="530" cy="550" r="2" fill="#64ffda" />
+    <circle cx="630" cy="600" r="1.5" fill="#64ffda" />
+    <circle cx="730" cy="540" r="3" fill="#64ffda" />
+    <circle cx="180" cy="680" r="2" fill="#64ffda" />
+    <circle cx="280" cy="720" r="2.5" fill="#64ffda" />
+    <circle cx="380" cy="650" r="1.5" fill="#64ffda" />
+    <circle cx="480" cy="750" r="3" fill="#64ffda" />
+    <circle cx="580" cy="690" r="2" fill="#64ffda" />
+    <circle cx="680" cy="730" r="1.5" fill="#64ffda" />
+    <circle cx="760" cy="680" r="2.5" fill="#64ffda" />
+  </g>
+  <g opacity="0.05">
+    <path d="M100,100 Q150,50 200,100 T300,100 T400,100 T500,100 T600,100 T700,100" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,200 Q150,150 200,200 T300,200 T400,200 T500,200 T600,200 T700,200" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,300 Q150,250 200,300 T300,300 T400,300 T500,300 T600,300 T700,300" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,400 Q150,350 200,400 T300,400 T400,400 T500,400 T600,400 T700,400" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,500 Q150,450 200,500 T300,500 T400,500 T500,500 T600,500 T700,500" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,600 Q150,550 200,600 T300,600 T400,600 T500,600 T600,600 T700,600" stroke="#64ffda" stroke-width="1" fill="none" />
+    <path d="M100,700 Q150,650 200,700 T300,700 T400,700 T500,700 T600,700 T700,700" stroke="#64ffda" stroke-width="1" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Teekshala K</title>
+    <link rel="stylesheet" href="project-styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="logo-color">TK</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#top-projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#certifications" class="nav-link">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Projects Section -->
+    <section id="projects-page">
+        <h1 class="projects-title">My Projects Portfolio</h1>
+        <p class="projects-subtitle">A collection of my work across various technologies and domains</p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            <button class="filter-btn" data-filter="data">Data Analysis</button>
+        </div>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="fullstack">
+                <div class="project-img-container">
+                    <img src="assets/project1.svg" alt="Photography Meetup Website">
+                </div>
+                <h3>International Photography Meetup Website</h3>
+                <p>A full-stack application that connects photography enthusiasts globally, allowing them to create and discover events, share photos, and establish a community around their shared passion.</p>
+                <div class="tech-badges">
+                    <span class="tech-badge">Angular</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">MongoDB</span>
+                    <span class="tech-badge">Express</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link" onclick="openVideoModal('assets/vid-1.mp4')">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-category="data">
+                <div class="project-img-container">
+                    <img src="assets/project2.svg" alt="Analytics Dashboard">
+                </div>
+                <h3>Visual Analytics Dashboard for Sleep, Health, and Lifestyle Dataset</h3>
+                <p>An interactive dashboard visualizing correlations between sleep patterns, health metrics, and lifestyle choices, featuring filtering tools, comparison views, and predictive insights.</p>
+                <div class="tech-badges">
+                    <span class="tech-badge">React.js</span>
+                    <span class="tech-badge">D3.js</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link" onclick="openVideoModal('assets/vid-2.mp4')">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-category="backend">
+                <div class="project-img-container">
+                    <img src="assets/project3.svg" alt="Driver Safety System">
+                </div>
+                <h3>Monitoring Driver's Lethargy for Car Safety</h3>
+                <p>A system that uses computer vision to detect signs of driver drowsiness and fatigue, triggering alerts to prevent accidents. Includes real-time facial analysis and alertness monitoring.</p>
+                <div class="tech-badges">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">OpenCV</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">IoT</span>
+                </div>
+                <div class="project-links">
+                    <a href="assets/Driver Drowsiness Detection Using CNN_Pper.docx" class="project-link" download>
+                        <i class="fas fa-file-word"></i> View Documentation
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Back to Home Button -->
+        <a href="index.html" class="back-home-btn">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Teeksha Lak. All Rights Reserved.</p>
+                <div class="social-icons footer-icons">
+                    <a href="https://www.linkedin.com/in/teekshalak/" target="_blank" class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/teekshala-4" target="_blank" class="icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:teekshalak4788@gmail.com" class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Project Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <video id="projectVideo" controls>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Function to open modal with video
+        function openVideoModal(videoUrl) {
+            const videoPlayer = document.getElementById('projectVideo');
+            
+            // Add error handling
+            videoPlayer.onerror = function() {
+                console.error('Error loading video:', videoUrl);
+                alert('Error loading video. Please check if the video file exists at: ' + videoUrl);
+            };
+            
+            // Set video source
+            videoPlayer.src = videoUrl;
+            
+            // Create and show modal
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+            
+            // Play the video when the modal is shown
+            document.getElementById('videoModal').addEventListener('shown.bs.modal', function () {
+                const playPromise = videoPlayer.play();
+                
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.error('Error playing video:', error);
+                        alert('Error playing video. Please try again.');
+                    });
+                }
+            });
+        }
+
+        // Close modal and stop video when modal is hidden
+        document.getElementById('videoModal').addEventListener('hidden.bs.modal', function () {
+            const videoPlayer = document.getElementById('projectVideo');
+            videoPlayer.pause();
+            videoPlayer.currentTime = 0;
+            videoPlayer.src = '';
+        });
+    </script>
+</body>
+</html>
